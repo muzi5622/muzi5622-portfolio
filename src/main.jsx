@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/muzamil-portfolio"> {/* ✅ Add basename */}
+  <BrowserRouter basename="/"> {/* ✅ Add basename */}
     <App />
   </BrowserRouter>
 );
