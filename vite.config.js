@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // Remove base: "/muzamil-portfolio", if not needed
+  base: '', // Set this to an empty string for Vercel deployments
 });
